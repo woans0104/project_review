@@ -14,7 +14,6 @@ https://arxiv.org/abs/1807.03247
 
 
 ![Alt text](/img/coord1.png)
-![Alt text](/img/coord2.png)
 
 
 
@@ -116,6 +115,15 @@ https://arxiv.org/abs/1810.07842
 
 * focal Tversky loss function (FTL)
   ![Alt text](/img/focalloss1.png)
+  
+  
+  ![Alt text](/img/focalloss2.png)
+  ![Alt text](/img/focalloss3.png)
+  ![Alt text](/img/focalloss4.png)
+  ![Alt text](/img/focalloss5.png)
+  ![Alt text](/img/attunet.png)
+  ![Alt text](/img/attgate.png)
+  
   
   
 
