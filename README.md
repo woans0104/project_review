@@ -131,10 +131,7 @@ https://arxiv.org/abs/1810.07842
  
 #### evaluation
 
-	<center><img src="/img/focalloss4.PNG" width="500" height="500"></center>
-
-
-
+<p align="center"><img src="/img/focalloss4.PNG" width="500" height="500"></p>
 
 
 
