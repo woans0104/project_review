@@ -23,7 +23,7 @@ https://arxiv.org/abs/1807.03247
 
 ---------------------------------------
 
-### 01-1. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING
+### 01-1. Automatic salt deposits segmentation: A deep learning approach
 
 ---------------------------------------
 https://arxiv.org/abs/1812.01429
@@ -48,7 +48,7 @@ https://arxiv.org/abs/1812.01429
 
 ---------------------------------------
 
-### 01-2. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING
+### 01-2. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING Coordination-Guided Deep Neural Networks
 
 ---------------------------------------
 
