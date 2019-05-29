@@ -159,7 +159,9 @@ https://arxiv.org/abs/1810.07842
 * focal Tversky loss function (FTL)
   
   ![Alt text](/img/focalloss2.png)
-  
+ 
+* r : 파라미터[1~3]
+* best : 4/3 
 
     
 ### model
