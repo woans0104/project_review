@@ -10,7 +10,7 @@ https://arxiv.org/abs/1807.03247
 
 
 
-idea 
+#### idea 
 
 
 ![Alt text](/img/coord1.png)
@@ -27,13 +27,13 @@ idea
 https://arxiv.org/abs/1904.09106
 
 
-##### task  
+#### task  
 * propose an automated segmentation of pulmonary lobes using coordination-guided deep neural networks from chest CT images
 
 ![Alt text](/img/coord4.png)
 
 
-##### dataset
+#### dataset
 
 ![Alt text](/img/coord3.png)
 
@@ -42,7 +42,7 @@ https://arxiv.org/abs/1904.09106
 * target : five target lobar classes
 
 
-##### model
+#### model
 
 ![Alt text](/img/vnet.png)
 
@@ -52,24 +52,34 @@ https://arxiv.org/abs/1904.09106
 * coordconv 적용 : last transition in the decoding path
 
 
-##### evaluation
+#### evaluation
 
 ![Alt text](/img/coord5.png)
 
 
 
+---------------------------------------
+
+### 02. Focal loss
+
+---------------------------------------
+
+#### idea 
+
+
+![Alt text](/img/focalloss.png)
+
+* 분류 잘못 , pt 작을때 : factor는 1에 가까운 값을 가지며 loss에 거의 영향 없음
+* 반면 pt 1이면 factor가 0에 가까워지며 잘 분류된 샘플에 대해서 loss의 가중치가 작아짐
 
 
 
 
+---------------------------------------
 
+### 02-1. A NOVEL FOCAL TVERSKY LOSS FUNCTION WITH IMPROVED ATTENTION U-NET FOR LESION SEGMENTATION
 
-
-
-
-
-
-
+---------------------------------------
 
 
 
