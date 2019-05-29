@@ -19,9 +19,36 @@ https://arxiv.org/abs/1807.03247
 
 
 
+
+
 ---------------------------------------
 
 ### 01-1. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING
+
+---------------------------------------
+https://arxiv.org/abs/1812.01429
+
+### task & contributions
+
+* salt deposits segmentation problem in seismic image data
+
+### dataset
+
+<p align="center"><img src="/img/salt1.png" width="300" height="300"></p>
+
+* Seismic reflection data
+* size 101 × 101
+* binary masks of salt deposits
+
+### model
+
+![Alt text](/img/salt2.png)
+
+
+
+---------------------------------------
+
+### 01-2. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING
 
 ---------------------------------------
 
@@ -45,7 +72,7 @@ https://arxiv.org/abs/1904.09106
 
 ### model
 
-![Alt text](/img/vnet.png)</center>
+![Alt text](/img/vnet.png)
 
 
 
@@ -60,7 +87,7 @@ https://arxiv.org/abs/1904.09106
 
 ### evaluation
 
-![Alt text](/img/coord5.png)</center>
+![Alt text](/img/coord5.png)
 
 
 
