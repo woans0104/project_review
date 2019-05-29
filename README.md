@@ -137,8 +137,8 @@ https://arxiv.org/abs/1810.07842
     
 ### model
 
-<p align="center"><img src="/img/attunet.PNG" width="800" height="600"></p>
-<p align="center"><img src="/img/attgate.PNG" width="600" height="400"></p>
+<p align="center"><img src="/img/attunet.PNG" width="800" height="500"></p>
+<p align="center"><img src="/img/attgate.PNG" width="500" height="300"></p>
 
  
 #### evaluation
