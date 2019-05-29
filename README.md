@@ -124,14 +124,13 @@ https://arxiv.org/abs/1810.07842
   
 #### model
 
-<center><img src="/img/attunet.PNG" width="300" height="300"></center>
-<center><img src="/img/attgate.PNG" width="300" height="300"></center>
-
+<p align="center"><img src="/img/attunet.PNG" width="600" height="500"></p>
+<p align="center"><img src="/img/attgate.PNG" width="600" height="500"></p>
 
  
 #### evaluation
 
-<p align="center"><img src="/img/focalloss4.PNG" width="500" height="500"></p>
+<p align="center"><img src="/img/focalloss4.PNG" width="600" height="500"></p>
 
 
 
