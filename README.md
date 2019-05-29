@@ -27,7 +27,7 @@ https://arxiv.org/abs/1807.03247
 https://arxiv.org/abs/1904.09106
 
 
-#### task  
+#### task & contributions
 * propose an automated segmentation of pulmonary lobes using coordination-guided deep neural networks from chest CT images
 
 ![Alt text](/img/coord4.png)
@@ -81,7 +81,43 @@ https://arxiv.org/abs/1904.09106
 
 ---------------------------------------
 
+https://arxiv.org/abs/1810.07842
 
+
+#### task & contributions
+
+* a novel focal Tversky loss function for highly imbalanced data  and small ROI segmentation
+* a deeply supervised attention U-Net  improved with a multiscaled input image pyramid for better intermediate feature representations.
+
+
+#### dataset
+	
+  * 1.Breast Ultrasound Lesions 2017 dataset B (BUS)
+		* 163 ultrasound images of breast lesions from different women
+		* average image size is 760 x 570 pixels(resampled to 128 x 128 pixels)
+		* a 75-25 train-test split
+
+  * 2.ISIC 2018 skin lesion dataset
+		* 2,594 RGB images of skin lesion
+		* image size of 2166 x 3188 pixels(resampled to 192 x 256 pixels)
+    * 75-25 train-test split
+    
+    
+#### focal Tversky loss function (FTL)
+
+* The Tversky index is adapted to a loss function (TL)
+  ![Alt text](/img/focalloss1.png)
+  
+	* pic : 병이 잇는 클래스 확률
+	* pic-: 병없는 클래스 확률
+	* a,b는 하이퍼파라미터
+	![Alt text](/img/focalloss5.png)
+  
+
+* focal Tversky loss function (FTL)
+  ![Alt text](/img/focalloss1.png)
+  
+  
 
 
 
