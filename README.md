@@ -1,9 +1,3 @@
-  
-  /* 새 css class */
-.center {
-  display: block;
-  margin: auto;
-}
 
 
 # project_review
@@ -137,9 +131,8 @@ https://arxiv.org/abs/1810.07842
  
 #### evaluation
 
-<center><img src="/img/focalloss4.PNG" width="500" height="500"></center>
+	<center><img src="/img/focalloss4.PNG" width="500" height="500"></center>
 
-![title](/img/focalloss4.PNG){: width="500" height="500"){: .center}
 
 
 
