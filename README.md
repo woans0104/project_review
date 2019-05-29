@@ -17,3 +17,50 @@ idea
 ![Alt text](/img/coord2.png)
 
 
+
+---------------------------------------
+
+### 01-1. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING
+
+---------------------------------------
+
+https://arxiv.org/abs/1904.09106
+
+
+##### task  
+* propose an automated segmentation of pulmonary lobes using coordination-guided deep neural networks from chest CT images
+
+![Alt text](/img/coord3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
