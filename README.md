@@ -14,4 +14,4 @@ idea
 
 
 
-![Alt text](sk_project/img/coord1.png)
+![Alt text](/path/to/coord1.png)
