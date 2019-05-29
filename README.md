@@ -28,13 +28,14 @@ https://arxiv.org/abs/1807.03247
 https://arxiv.org/abs/1904.09106
 
 
-#### task & contributions
+### task & contributions
 * propose an automated segmentation of pulmonary lobes using coordination-guided deep neural networks from chest CT images
 
-![Alt text](/img/coord4.png)</center>
+<p align="center"><img src="/img/coord4.png" width="500" height="500"></p>
 
 
-#### dataset
+### dataset
+
 
 ![Alt text](/img/coord3.png)</center>
 
@@ -43,9 +44,11 @@ https://arxiv.org/abs/1904.09106
 * target : five target lobar classes
 
 
-#### model
+### model
 
 ![Alt text](/img/vnet.png)</center>
+
+
 
 
 * fully end-to-end 3D deep learning approach
@@ -53,7 +56,10 @@ https://arxiv.org/abs/1904.09106
 * coordconv 적용 : last transition in the decoding path
 
 
-#### evaluation
+
+
+
+### evaluation
 
 ![Alt text](/img/coord5.png)</center>
 
@@ -65,13 +71,13 @@ https://arxiv.org/abs/1904.09106
 
 ---------------------------------------
 
-#### idea 
+### idea 
 
 
 ![Alt text](/img/focalloss.png)</center>
 
-* 분류 잘못 , pt 작을때 : factor는 1에 가까운 값을 가지며 loss에 거의 영향 없음
-* 반면 pt 1이면 factor가 0에 가까워지며 잘 분류된 샘플에 대해서 loss의 가중치가 작아짐
+* pt가 클 경우 상대적으로 loss가 pt가 적을 때 보다 크게 감소
+* 따라서 상대적으로 잘 분류되지 못한 cls에 집중함
 
 
 
@@ -85,13 +91,16 @@ https://arxiv.org/abs/1904.09106
 https://arxiv.org/abs/1810.07842
 
 
-#### task & contributions
+### task & contributions
+
 
 * a novel focal Tversky loss function for highly imbalanced data  and small ROI segmentation
 * a deeply supervised attention U-Net  improved with a multiscaled input image pyramid for better intermediate feature representations.
 
 
-#### dataset
+
+### dataset
+	
 	
   * 1.Breast Ultrasound Lesions 2017 dataset B (BUS)
 		* 163 ultrasound images of breast lesions from different women
@@ -104,33 +113,38 @@ https://arxiv.org/abs/1810.07842
     		* 75-25 train-test split
     
     
+    
 #### focal Tversky loss function (FTL)
 
+
 * The Tversky index is adapted to a loss function (TL)
-  ![Alt text](/img/focalloss1.png)</center>
+ 
+ ![Alt text](/img/focalloss1.png)
+ 
   
-	* pic : 병이 잇는 클래스 확률
-	* pic-: 병없는 클래스 확률
+	* pic : cls가 1인 pixel에 대한 확률값
+	* pic-: cls가 0인 pixel에 대한 확률값
 	* a,b는 하이퍼파라미터
 
+
   ![Alt text](/img/focalloss5.PNG)
+
 
 * focal Tversky loss function (FTL)
   
   ![Alt text](/img/focalloss2.png)
   
 
-  
-  
-#### model
+    
+### model
 
-<p align="center"><img src="/img/attunet.PNG" width="600" height="500"></p>
-<p align="center"><img src="/img/attgate.PNG" width="600" height="500"></p>
+<p align="center"><img src="/img/attunet.PNG" width="900" height="700"></p>
+<p align="center"><img src="/img/attgate.PNG" width="600" height="400"></p>
 
  
 #### evaluation
 
-<p align="center"><img src="/img/focalloss4.PNG" width="600" height="500"></p>
+<p align="center"><img src="/img/focalloss4.PNG" width="800" height="500"></p>
 
 
 
