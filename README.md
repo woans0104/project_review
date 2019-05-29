@@ -125,18 +125,15 @@ https://arxiv.org/abs/1810.07842
   
 #### model
 
+<center><img src="/img/attunet.PNG" width="300" height="300"></center>
+<center><img src="/img/attgate.PNG" width="300" height="300"></center>
 
-  ![Alt text](/img/attunet.PNG)</center>
-  
-  ![Alt text](/img/attgate.PNG)</center>
-  
   
   
  
 #### evaluation
 
-
-  ![Alt text](/img/focalloss4.PNG)</center>
+<center><img src="/img/focalloss4.PNG" width="300" height="300"></center>
 
 
 
