@@ -1,4 +1,9 @@
-
+  
+  /* 새 css class */
+.center {
+  display: block;
+  margin: auto;
+}
 
 
 # project_review
@@ -128,14 +133,13 @@ https://arxiv.org/abs/1810.07842
 <center><img src="/img/attunet.PNG" width="300" height="300"></center>
 <center><img src="/img/attgate.PNG" width="300" height="300"></center>
 
-  
-  
+
  
 #### evaluation
 
 <center><img src="/img/focalloss4.PNG" width="500" height="500"></center>
 
-
+![title](/img/focalloss4.PNG){: width="500" height="500"){: .center}
 
 
 
