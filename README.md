@@ -138,6 +138,12 @@ https://arxiv.org/abs/1810.07842
 ### model
 
 <p align="center"><img src="/img/attunet.PNG" width="800" height="500"></p>
+
+* attention gate 
+* multi scale : avg pooling을 이용해 각 stage의 input으로 추가로 넣어줌
+* deep supervision 
+
+
 <p align="center"><img src="/img/attgate.PNG" width="500" height="300"></p>
 
  
