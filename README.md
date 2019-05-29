@@ -34,7 +34,7 @@ https://arxiv.org/abs/1812.01429
 
 ### dataset
 
-<p align="center"><img src="/img/salt1.png" width="300" height="300"></p>
+<p align="left"><img src="/img/salt1.png" width="300" height="300"></p>
 
 * Seismic reflection data
 * size 101 × 101
@@ -44,7 +44,7 @@ https://arxiv.org/abs/1812.01429
 
 ![Alt text](/img/salt2.png)
 
-
+<p align="left"><img src="/img/salt3.png" width="300" height="300"></p>
 
 ---------------------------------------
 
