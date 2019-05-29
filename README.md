@@ -99,7 +99,7 @@ https://arxiv.org/abs/1810.07842
   * 2.ISIC 2018 skin lesion dataset
 		* 2,594 RGB images of skin lesion
 		* image size of 2166 x 3188 pixels(resampled to 192 x 256 pixels)
-    * 75-25 train-test split
+    		* 75-25 train-test split
     
     
 #### focal Tversky loss function (FTL)
@@ -110,32 +110,30 @@ https://arxiv.org/abs/1810.07842
 	* pic : 병이 잇는 클래스 확률
 	* pic-: 병없는 클래스 확률
 	* a,b는 하이퍼파라미터
-	![Alt text](/img/focalloss5.png)
-  
+
+  ![Alt text](/img/focalloss5.PNG)
 
 * focal Tversky loss function (FTL)
-  ![Alt text](/img/focalloss1.png)
-  
   
   ![Alt text](/img/focalloss2.png)
   
-  ![Alt text](/img/focalloss3.png)
+
   
-  ![Alt text](/img/focalloss4.PNG)
   
-  ![Alt text](/img/focalloss5.PNG)
-  
+#### model
+
+
   ![Alt text](/img/attunet.PNG)
   
   ![Alt text](/img/attgate.PNG)
   
   
   
-  
+ 
+#### evaluation
 
 
-
-
+  ![Alt text](/img/focalloss4.PNG)
 
 
 
