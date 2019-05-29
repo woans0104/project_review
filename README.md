@@ -118,11 +118,17 @@ https://arxiv.org/abs/1810.07842
   
   
   ![Alt text](/img/focalloss2.png)
+  
   ![Alt text](/img/focalloss3.png)
+  
   ![Alt text](/img/focalloss4.png)
+  
   ![Alt text](/img/focalloss5.png)
+  
   ![Alt text](/img/attunet.png)
+  
   ![Alt text](/img/attgate.png)
+  
   
   
   
