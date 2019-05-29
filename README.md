@@ -14,4 +14,4 @@ idea
 
 
 
-![Alt text](/path/to/coord1.png)
+![Alt text](/img/coord1.png)
