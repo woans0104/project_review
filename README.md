@@ -2,7 +2,7 @@
 
 ---------------------------------------
 
-01. coordconv solution
+### 01. coordconv solution
 
 ---------------------------------------
 
@@ -14,4 +14,4 @@ idea
 
 
 
-![Alt text](/path/to/img.jpg)
+![Alt text](/sk_project/img/coord1.png)
