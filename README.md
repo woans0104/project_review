@@ -1,3 +1,6 @@
+
+
+
 # project_review
 
 ---------------------------------------
@@ -13,7 +16,7 @@ https://arxiv.org/abs/1807.03247
 #### idea 
 
 
-![Alt text](/img/coord1.png)
+![Alt text](/img/coord1.png)</center>
 
 
 
@@ -29,12 +32,12 @@ https://arxiv.org/abs/1904.09106
 #### task & contributions
 * propose an automated segmentation of pulmonary lobes using coordination-guided deep neural networks from chest CT images
 
-![Alt text](/img/coord4.png)
+![Alt text](/img/coord4.png)</center>
 
 
 #### dataset
 
-![Alt text](/img/coord3.png)
+![Alt text](/img/coord3.png)</center>
 
 * 343 chest CT scans
 * size : 256×256×128
@@ -43,7 +46,7 @@ https://arxiv.org/abs/1904.09106
 
 #### model
 
-![Alt text](/img/vnet.png)
+![Alt text](/img/vnet.png)</center>
 
 
 * fully end-to-end 3D deep learning approach
@@ -53,7 +56,7 @@ https://arxiv.org/abs/1904.09106
 
 #### evaluation
 
-![Alt text](/img/coord5.png)
+![Alt text](/img/coord5.png)</center>
 
 
 
@@ -66,7 +69,7 @@ https://arxiv.org/abs/1904.09106
 #### idea 
 
 
-![Alt text](/img/focalloss.png)
+![Alt text](/img/focalloss.png)</center>
 
 * 분류 잘못 , pt 작을때 : factor는 1에 가까운 값을 가지며 loss에 거의 영향 없음
 * 반면 pt 1이면 factor가 0에 가까워지며 잘 분류된 샘플에 대해서 loss의 가중치가 작아짐
@@ -105,7 +108,7 @@ https://arxiv.org/abs/1810.07842
 #### focal Tversky loss function (FTL)
 
 * The Tversky index is adapted to a loss function (TL)
-  ![Alt text](/img/focalloss1.png)
+  ![Alt text](/img/focalloss1.png)</center>
   
 	* pic : 병이 잇는 클래스 확률
 	* pic-: 병없는 클래스 확률
@@ -123,9 +126,9 @@ https://arxiv.org/abs/1810.07842
 #### model
 
 
-  ![Alt text](/img/attunet.PNG)
+  ![Alt text](/img/attunet.PNG)</center>
   
-  ![Alt text](/img/attgate.PNG)
+  ![Alt text](/img/attgate.PNG)</center>
   
   
   
@@ -133,7 +136,7 @@ https://arxiv.org/abs/1810.07842
 #### evaluation
 
 
-  ![Alt text](/img/focalloss4.PNG)
+  ![Alt text](/img/focalloss4.PNG)</center>
 
 
 
