@@ -31,7 +31,7 @@ https://arxiv.org/abs/1904.09106
 ### task & contributions
 * propose an automated segmentation of pulmonary lobes using coordination-guided deep neural networks from chest CT images
 
-<p align="center"><img src="/img/coord4.png" width="500" height="500"><img src="/img/coord3.png" width="500" height="500"></p>
+<p align="center"><img src="/img/coord4.png" width="300" height="300"><img src="/img/coord3.png" width="300" height="300"></p>
 
 
 ### dataset
