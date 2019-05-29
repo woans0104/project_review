@@ -113,7 +113,7 @@ https://arxiv.org/abs/1810.07842
     
     
     
-#### focal Tversky loss function (FTL)
+### focal Tversky loss function (FTL)
 
 
 * The Tversky index is adapted to a loss function (TL)
@@ -141,7 +141,7 @@ https://arxiv.org/abs/1810.07842
 <p align="center"><img src="/img/attgate.PNG" width="500" height="300"></p>
 
  
-#### evaluation
+### evaluation
 
 <p align="center"><img src="/img/focalloss4.PNG" width="800" height="500"></p>
 
