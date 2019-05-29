@@ -146,6 +146,9 @@ https://arxiv.org/abs/1810.07842
 
 <p align="center"><img src="/img/attgate.PNG" width="500" height="300"></p>
 
+* g : 이전 stgage decoder로 부터의 featuremap
+* x : 대응되는 stage encoder로 부터의 featuremap
+* 0~1 사이의 값을 뱉어 주어서 x와 곱함
  
 ### evaluation
 
