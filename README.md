@@ -18,37 +18,9 @@ https://arxiv.org/abs/1807.03247
 ![Alt text](/img/coord1.png)</center>
 
 
-
-
-
 ---------------------------------------
 
-### 01-1. Automatic salt deposits segmentation: A deep learning approach
-
----------------------------------------
-https://arxiv.org/abs/1812.01429
-
-### task & contributions
-
-* salt deposits segmentation problem in seismic image data
-
-### dataset
-
-<p align="left"><img src="/img/salt1.png" width="300" height="300"></p>
-
-* Seismic reflection data
-* size 101 × 101
-* binary masks of salt deposits
-
-### model
-
-![Alt text](/img/salt2.png)
-
-<p align="left"><img src="/img/salt3.png" width="300" height="300"></p>
-
----------------------------------------
-
-### 01-2. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING Coordination-Guided Deep Neural Networks
+### 01-1. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING Coordination-Guided Deep Neural Networks
 
 ---------------------------------------
 
