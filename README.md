@@ -18,6 +18,9 @@ https://arxiv.org/abs/1807.03247
 ![Alt text](/img/coord1.png)</center>
 
 
+* coordconv : 좌표정보를 input에 concat 시켜 추가하고 conv 연산을 수행해 모델이 좌표정보 또한 학습하게끔 만듬
+	* input에 nomalization한 좌표정보 i,j를 concat
+
 ---------------------------------------
 
 ### 01-1. AUTOMATED SEGMENTATION OF PULMONARY LOBES USING Coordination-Guided Deep Neural Networks
