@@ -123,9 +123,10 @@ https://arxiv.org/abs/1810.07842
  ![Alt text](/img/focalloss1.png)
  
   
-	* pic : cls가 1인 pixel에 대한 확률값
-	* pic-: cls가 0인 pixel에 대한 확률값
-	* a,b는 하이퍼파라미터
+	* pic : probability that pixel i is of the lesion class c
+	* pic-: probability pixel i is of the non-lesion class c¯
+	* same is true for gic and gic¯
+	*  α,β 는 하이퍼파라미터
 
 
   ![Alt text](/img/focalloss5.PNG)
@@ -135,8 +136,7 @@ https://arxiv.org/abs/1810.07842
   
   ![Alt text](/img/focalloss2.png)
  
-* r : 파라미터[1~3]
-* best : 4/3 
+* γ : 파라미터[1~3] /best : 4/3 
 
     
 ### model
@@ -147,13 +147,13 @@ https://arxiv.org/abs/1810.07842
 * multi scale : avg pooling을 이용해 각 stage의 input으로 추가로 넣어줌
 * deep supervision 
 
-"""
+
 <p align="center"><img src="/img/attgate.PNG" width="500" height="300"></p>
 
 * g : 이전 stgage decoder로 부터의 featuremap
 * x : 대응되는 stage encoder로 부터의 featuremap
 * 0~1 사이의 값을 뱉어 주어서 x와 곱함
- """
+
 ### evaluation
 
 <p align="center"><img src="/img/focallloss7.png" width="600" height="300"></p>
