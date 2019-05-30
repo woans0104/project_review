@@ -181,7 +181,7 @@ https://arxiv.org/abs/1810.07842
  
 ### evaluation
 
-<p align="center"><img src="/img/focallloss7.png" width="800" height="500"></p>
+<p align="center"><img src="/img/focallloss7.png" width="600" height="400"></p>
 
 
 
